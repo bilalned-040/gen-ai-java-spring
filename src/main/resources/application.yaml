@@ -10,6 +10,22 @@ spring:
       chat:
         options:
           model: gpt-4o
+    vertex:
+      ai:
+        gemini:
+          project-id: project-a82217dd-7228-46da-a70
+          location: us-central1
+          chat:
+            options:
+              model: gemini-2.0-flash
+    huggingface:
+      chat:
+        api-key: ${HUGGINGFACE_API_KEY}
+        url: https://g6njgidlsy6hcszr.us-east-1.aws.endpoints.huggingface.cloud
+        options:
+          model: Qwen/Qwen2.5-Coder-7B-Instruct
+          max-new-tokens: 1024
+          temperature: 0.7
 
 logging:
   level:

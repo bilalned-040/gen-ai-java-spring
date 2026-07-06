@@ -1,0 +1,30 @@
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.11 with PID 48775 (/Users/muhanif/Projects/gen-ai-java-spring/target/classes started by muhanif in /Users/muhanif/Projects/gen-ai-java-spring)
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-06 14:06:30 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+2026-07-06 14:06:31 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-07-06 14:06:31 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-07-06 14:06:31 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 1.253 seconds (process running for 1.461)
+2026-07-06 14:06:38 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-06 14:06:38 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-07-06 14:06:38 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-07-06 14:06:38 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.11 with PID 51311 (/Users/muhanif/Projects/gen-ai-java-spring/target/classes started by muhanif in /Users/muhanif/Projects/gen-ai-java-spring)
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-06 20:07:41 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 500 ms
+2026-07-06 20:07:42 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-07-06 20:07:42 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-07-06 20:07:42 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 1.294 seconds (process running for 1.487)
+2026-07-06 20:07:45 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-06 20:07:45 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-07-06 20:07:45 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-07-06 20:07:45 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
